@@ -6,6 +6,137 @@
 </head>
 <body>
 
+<script>
+    // <!-- - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.-->
+    //     <!--Вивести кожну змінну за допомогою: console.log , alert, document.write-->
+    // <!-- - Переприсвоїти кожну змінну з завдання вище на будь які довільні значення.-->
+    //     <!--&lt;!&ndash;Вивести кожну змінну за допомогою: console.log , alert, document.wri&ndash;&gt;-->
+
+
+    let a = 'hello';
+    a = 'Hello world';
+    console.log(a);
+    document.write(`${a}`);
+
+
+
+    let d = 'owu';
+    d = 'okten';
+    console.log(d);
+    document.write(`${d}`);
+
+    let c = 'com';
+    c = 'ua';
+    console.log(c);
+    document.write(`${c}`);
+
+    let b = 'ua';
+    b = 'com';
+    console.log(b);
+    document.write(`${b}`);
+
+    let numA = 1;
+    numA = 10;
+    console.log(numA);
+    document.write(`${numA}`);
+
+    let numB = 10;
+    numB = 1;
+    console.log(numB);
+    document.write(`${numB}`);
+
+    let numC = -999;
+    numC = -333;
+    console.log(numC);
+    document.write(`${numC}`);
+
+    let numD = 123;
+    numD = 321;
+    console.log(numD);
+    document.write(`${numD}`);
+
+    let numP = 3.14;
+    numP = 4.13;
+    console.log(numP);
+    document.write(`${numP}`);
+
+
+    let numQ = 2.7;
+    numQ = 7.2;
+    console.log(numQ)
+    document.write(`${numQ}`);
+
+    let numW = 16;
+    numW = 32;
+    console.log(numW);
+    document.write(`${numW}`);
+
+    let truth = true;
+    truth = false;
+    console.log(truth);
+    document.write(`${truth}`);
+
+    let full = false;
+    full = truth;
+    console.log(full);
+    document.write(`${full}`);
+
+    // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. Зконкатенувати їх в одну змінну person.
+    // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
+    // Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
+
+    let person = {
+        firstName: 'Kinash',
+        middleName: 'Vasyl',
+        lastName: 'Mykhaylovich',
+        age: 43,
+    }
+    document.write(`<h2> ${person.middleName} ${person.firstName} ${person.age}</h2>`)
+    document.write(`<h3> Вітаю ${person.middleName} ${person.lastName} Тобі ${person.age} років </h3>`)
+
+    // За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+    //     let a = 100; let b = '100'; let c = true;
+
+    let aa = 100;
+    console.log(typeof aa); //number
+
+    let bb = '100';
+    console.log(bb); //100- напис
+
+    let cc = true;
+    console.log(cc); // true
+
+    // //- Поставет відповідний оператор в виразах що б вийшов відповідний результат.
+    //     В однакових виразаї не використовувати однакові оператори!!!
+    // 5 ? 6 -> true
+    // 5 ? 6 -> false
+    // 5 ? 6 -> false
+    // 5 ? 6 -> false
+    // 10 ? 10 -> true
+    // 10 ? 10 -> true
+    // 10 ? 10 -> false
+    // 10 ? 10 -> false
+    // 10 ? 10 -> false
+    // 123 ? '123' -> false
+    // 123 ? '123' -> true
+
+
+    let tr = false;
+    tr = 5 < 6;
+    tr = 5 > 6;
+    tr = 5 == 6;
+    tr = 5 === 6;
+    tr = 10 == 10;
+    tr = 10 === 10;
+    tr = 10 < 10;
+    tr = 10 > 10;
+    tr = 10 != 10;
+    tr = 123 > '123';
+    tr = 123 == '123';
+    console.log(tr)
+
+
+</script>
 
 </body>
 </html>
